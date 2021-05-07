@@ -1,16 +1,17 @@
 {
   "name": "@arkntools/scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/arkntools/scripts.git",
   "scripts": {
     "build:jimp": "webpack jimp --config jimp/webpack.config.js"
   },
   "files": [
-    "dist/*"
+    "dist/*",
+    "jimp/index.js"
   ],
   "devDependencies": {
     "jimp": "^0.16.1",
     "webpack": "^4.46.0",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.5.0"
   }
 }
