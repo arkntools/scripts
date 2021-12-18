@@ -1,8 +1,13 @@
+const { resolve } = require('path');
+
 module.exports = {
   target: 'webworker',
   mode: 'production',
+  entry: resolve(__dirname, 'index.js'),
   output: {
-    filename: 'jimp.js',
+    filename: 'jimp4worker.js',
+    library: 'Jimp',
+    libraryExport: 'default',
     libraryTarget: 'umd',
   },
   node: {
