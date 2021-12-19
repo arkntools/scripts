@@ -9,9 +9,10 @@ import color from '@jimp/plugin-color';
 import crop from '@jimp/plugin-crop';
 import invert from '@jimp/plugin-invert';
 import resize from '@jimp/plugin-resize';
+import scale from '@jimp/plugin-scale';
 import threshold from '@jimp/plugin-threshold';
 
 export default configure({
   types: [jpeg, png],
-  plugins: [blit, circle, color, crop, invert, resize, threshold],
+  plugins: [blit, circle, color, crop, invert, resize, scale, threshold],
 });

@@ -1,6 +1,6 @@
 {
   "name": "@arkntools/scripts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "repository": "https://github.com/arkntools/scripts.git",
   "scripts": {
     "build:jimp": "webpack --config jimp/webpack.config.js"
